@@ -1,15 +1,16 @@
 
 
 
-import Link from 'next/link'
+import Link from 'next/link';
+import Layout from '../components/Layout';
 export default () => (
-
-<div>
-     <h1>About</h1>
+ <Layout title='About'>
+    
      <Link href='/'>
       <a >Go to Home</a>
      </Link>
      <p>A javascript Programmer</p>
-     <img src="/static/youtubelogo.png"  alt='Youtube logo' />
-</div>
-)
+     <img src="/public/youtubelogo.png"  alt='Youtube logo' />
+
+ </Layout>
+);
